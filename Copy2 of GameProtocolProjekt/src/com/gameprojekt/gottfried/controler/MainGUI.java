@@ -237,8 +237,6 @@ public class MainGUI extends JFrame implements Observer {
 		label[3].setText("Table: " + controler.getModel().getPreThrowArray().getTableIDString());
 		label[4].setText("Kontostand: " + controler.getModel().getPreThrowArray().getKontostandString());
 
-			
-		
 	}
 
 	@Override
