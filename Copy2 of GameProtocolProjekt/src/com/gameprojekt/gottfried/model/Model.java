@@ -17,7 +17,7 @@ import com.gameprojekt.gottfried.gamepieces.EGameState2;
 public class Model extends Observable {
 
 	private String drehRichtung;
-	private static EGameState2 ergebnis;
+	private EGameState2 ergebnis;
 
 	private static String sCSV = "/Users/user/Desktop/CSV-Projekt4.csv";
 
