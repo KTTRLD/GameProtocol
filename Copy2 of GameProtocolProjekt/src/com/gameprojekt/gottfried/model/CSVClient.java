@@ -72,7 +72,6 @@ public class CSVClient {
 			setIsCSVFile(false);
 			initCSVWriter();
 		}
-		initCSVWriter();
 	}
 
 	private void setLastLine(String[] lastLine) {
