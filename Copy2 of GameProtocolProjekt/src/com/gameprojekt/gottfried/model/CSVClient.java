@@ -70,7 +70,6 @@ public class CSVClient {
 		} catch (IOException e) {
 			System.out.println("Keine Datei");
 			setIsCSVFile(false);
-			initCSVWriter();
 		}
 	}
 
