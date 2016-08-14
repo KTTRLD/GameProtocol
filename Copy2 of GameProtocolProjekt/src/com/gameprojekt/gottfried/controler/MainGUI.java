@@ -36,7 +36,7 @@ public class MainGUI extends JFrame implements Observer {
 	private MainControler controler;
 	static JLabel[] label = new JLabel[6];
 	static JButton[] button = new JButton[4];
-	private int k, b;
+
 	public MainGUI(final MainControler controler) {
 		// TODO Auto-generated constructor stub
 		this.controler = controler;
@@ -133,8 +133,8 @@ public class MainGUI extends JFrame implements Observer {
 	}
 
 	private void initButtons(JPanel panel) {
-		k = 0;
-		b = 0;
+		int k = 0;
+		int b = 0;
 		for (int i = 0; i < panel.getComponentCount(); i++) {
 			if (panel.getComponent(i) instanceof JLabel) {
 				int j = label.length;
