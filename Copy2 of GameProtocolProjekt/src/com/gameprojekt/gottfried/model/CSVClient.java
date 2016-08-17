@@ -10,7 +10,7 @@ import com.opencsv.CSVWriter;
 
 public class CSVClient {
 
-	private static String sCSV = "/Users/user/Desktop/CSV-Projekt4.csv";
+	private static String sCSV = "/Users/user/git/GameProtocol/Copy2 of GameProtocolProjekt/Data/CSV-Projekt4.csv";
 	private List<String[]> myEntries;
 	private String[] lastLine;
 	private boolean isCSVFile;

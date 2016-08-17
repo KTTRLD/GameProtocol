@@ -19,7 +19,7 @@ public class Model extends Observable {
 	private String drehRichtung;
 	private EGameState2 ergebnis;
 
-	private static String sCSV = "/Users/user/Desktop/CSV-Projekt4.csv";
+	private static String sCSV = "/Users/user/git/GameProtocol/Copy2 of GameProtocolProjekt/Data/CSV-Projekt4.csv";
 
 	private static LinkedList<Integer> input;
 	private TableModel tblModel;
